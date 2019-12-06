@@ -17,7 +17,7 @@ function App() {
   }, []);
 
   function handleChange(event) {
-    setSearchField(event.target.value);
+    setSearchField(event);
   }
 
   const filteredMonster = useMemo(() => {
